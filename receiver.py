@@ -3,7 +3,7 @@ import pyperclip
 import time
 
 CHUNK_SIZE = 40000
-SLEEP_TIME = 1 # DO NOT GO LOWER THAN 1
+SLEEP_TIME = 1.2 # DO NOT GO LOWER THAN 1
 
 def receive_file():
     global transfer_started
